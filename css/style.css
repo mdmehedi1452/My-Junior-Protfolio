@@ -5,7 +5,7 @@
 }
 /* -------headerpart-------*/
 .all-bpart{
- width: 1350px;
+ width: 1450px;
  height: auto;
  margin: 0px auto ;
 }
@@ -195,4 +195,207 @@
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 19px;
     color: #713737;
+}
+
+@media only screen and (max-width: 425px) and (min-width: 320px){
+/* -------headerpart-------*/
+.all-bpart{
+    width: 1000px;
+    height: auto;
+    margin: 0px auto;
+   }
+   
+   
+   .part_one{
+   
+width:100%;
+   
+background-image: url(../images/header-bg.png);
+   
+background-size: 100% 100%;
+   
+background-repeat:no-repeat;
+   
+display: block;
+   
+justify-content: left;
+   }
+   .part-one-left{
+       width: 100%;
+       padding: 95px 50px;
+   }
+   .part-one-left h2{
+       font-family: 'Lato', sans-serif;
+       font-size: 170px;
+   }
+   .part-one-left h1{
+       font-family: 'Fredoka One', cursive;
+       color: salmon;
+       font-weight: 900;
+       font-size: 112px;
+       padding: 6px 1px;
+   }
+   .part-one-left p{
+       font-family: 'Lato', sans-serif;
+       font-size: 41px;
+       color: #964036;
+   }
+   .part-one-left button{
+       padding: 16px;
+       font-size: 64px;
+       background: linear-gradient(45deg, #e06354, #c7756b);
+       border: none;
+       border-radius: 5px;
+       margin: 11px;
+   }
+   .part-one-left button a:hover{
+       color: black;
+      
+   }
+   .part-one-left button a{
+       font-family: 'Lato', sans-serif;
+       color: white;
+       text-decoration: none ;
+   }
+   .part-one-right{
+      
+width: 100%;
+   }
+   .part-one-right img{
+       width: 916px;
+       transform: rotate(-3deg);
+       margin-left: -74px;
+   }
+   /* -------Biographypart-------*/
+   .part-two-biography{
+       width:100%;
+       background-image: url(../images/biography-bg.png);
+       background-size: cover;
+       height: auto;
+       background-repeat:no-repeat;
+       display: flex;
+       justify-content: center;
+       flex-direction: column-reverse;
+   }
+   .part-two-biography-left{
+       font-family: 'Roboto Condensed', sans-serif;
+   }
+   .part-two-biography-left img{
+       width: 752px;
+       margin-top: -229px;
+   }
+   .part-two-biography-right{
+       padding: 213px 36px;
+   }
+   .part-two-biography-right h1{
+       font-size: 64px;
+       font-family: 'Roboto Condensed', sans-serif;
+       padding: 31px 0px;
+   }
+   .part-two-biography-right p{
+       font-family: 'Roboto Condensed', sans-serif;
+       font-size: 34px;
+       color: #904c44;
+   }
+   .part-two-biography-right button{
+       font-size: 27px;
+       background: linear-gradient(0deg, #e09c95, #c7756b);
+       border: none;
+       border-radius: 5px;
+       margin: 48px 0px;
+   }
+   .part-two-biography-right button a{
+       text-decoration: none;
+       padding: 16px;
+       display: block;
+       color: white;
+       font-size: 46px;
+       margin: 4px 3px;
+   }
+   /*-----------letest-work------- */
+   .part-thre-letest-work{
+       width: 100%;
+       background-image: url(../images/latest-work-bg.png);
+   
+       background-repeat: no-repeat;
+       background-size: 100% 100%;
+   }
+   .part-thre-letest-work h1{
+       font-size: 71px;
+       font-family: 'Roboto Condensed', sans-serif;
+       padding: 62px 0px;
+       text-align: center;
+   }
+   .images-leatest-work{
+       display: flex;
+       flex-direction: column;
+       justify-content: space-between;
+   }
+       
+   .one-image{
+    width: 83%;
+    margin: 10px auto;
+   }
+   .one-image img{
+       width: 100%;
+   }
+   
+   /* -------clint-testimonial------ */
+   .clint-testimonial{
+       font-family: 'Roboto Condensed', sans-serif;
+       text-align: center;
+       background-image: url(../images/footer-bg.png);
+       background-repeat: no-repeat;
+       background-size: cover;
+   }
+   .heading{
+       font-size: 63px;
+       font-family: 'Roboto Condensed', sans-serif;
+       padding: 62px 0px;
+       text-align: center;
+   }
+   .claint-testi-monial{
+     
+   }
+   .claint-testi-monial h3{
+       font-size: 61px;
+       margin-bottom: 15px;
+   }
+   .claint-testi-monial h5{
+       font-size: 31px;
+       color: #c5776e;
+       margin-bottom: 85px;
+   }
+   .claint-testi-monial p{
+       font-size: 41px;
+       color: #b94e41;
+   }
+   .email-contact-info{
+       background: linear-gradient(
+           49deg, #b58985, #d45e50);
+       width: 770px;
+       padding: 67px;
+       font-size: 22px;
+       border-radius: 6px;
+       height: 227px;
+       margin: 70px auto;
+       color: white;
+   }
+   .email-contact-info p{
+       font-size: 41px;
+       margin-bottom: 18px;
+   }
+   .email-contact-info a{
+       text-decoration: none;
+       font-size: 44px;
+       color: white;
+   }
+   .footer-copywritw{
+       text-align: center;
+   }
+   .footer-copywritw p{
+       font-family: 'Roboto Condensed', sans-serif;
+       font-size: 38px;
+       color: #713737;
+   }
 }
