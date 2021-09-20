@@ -200,7 +200,7 @@
 @media only screen and (max-width: 425px) and (min-width: 320px){
 /* -------headerpart-------*/
 .all-bpart{
-    width: 1000px;
+    width: 425px;
     height: auto;
     margin: 0px auto;
    }
@@ -221,28 +221,28 @@ display: block;
 justify-content: left;
    }
    .part-one-left{
-       width: 100%;
-       padding: 95px 50px;
+       width: 78%;
+       padding: 59px 17px;
    }
    .part-one-left h2{
        font-family: 'Lato', sans-serif;
-       font-size: 170px;
+       font-size: 35px;
    }
    .part-one-left h1{
        font-family: 'Fredoka One', cursive;
        color: salmon;
        font-weight: 900;
-       font-size: 112px;
+       font-size: 48px;
        padding: 6px 1px;
    }
    .part-one-left p{
        font-family: 'Lato', sans-serif;
-       font-size: 41px;
+       font-size: 15px;
        color: #964036;
    }
    .part-one-left button{
-       padding: 16px;
-       font-size: 64px;
+       padding: 8px;
+       font-size: 29px;
        background: linear-gradient(45deg, #e06354, #c7756b);
        border: none;
        border-radius: 5px;
@@ -262,8 +262,8 @@ justify-content: left;
 width: 100%;
    }
    .part-one-right img{
-       width: 916px;
-       transform: rotate(-3deg);
+       width: 100%;
+       transform: rotate(0deg);
        margin-left: -74px;
    }
    /* -------Biographypart-------*/
@@ -274,42 +274,43 @@ width: 100%;
        height: auto;
        background-repeat:no-repeat;
        display: flex;
-       justify-content: center;
+       justify-content: space-between;
        flex-direction: column-reverse;
    }
    .part-two-biography-left{
        font-family: 'Roboto Condensed', sans-serif;
    }
    .part-two-biography-left img{
-       width: 752px;
-       margin-top: -229px;
+       width: 83%;
+       margin-top: -45px;
    }
    .part-two-biography-right{
-       padding: 213px 36px;
+       padding: 24px 36px;
    }
    .part-two-biography-right h1{
-       font-size: 64px;
+       font-size: 39px;
        font-family: 'Roboto Condensed', sans-serif;
-       padding: 31px 0px;
+       padding: 14px 0px;
    }
    .part-two-biography-right p{
        font-family: 'Roboto Condensed', sans-serif;
-       font-size: 34px;
+       font-size: 13px;
        color: #904c44;
+       width: 80%;
    }
    .part-two-biography-right button{
-       font-size: 27px;
+       font-size: 14px;
        background: linear-gradient(0deg, #e09c95, #c7756b);
        border: none;
        border-radius: 5px;
-       margin: 48px 0px;
+       margin: 16px 0px;
    }
    .part-two-biography-right button a{
        text-decoration: none;
        padding: 16px;
        display: block;
        color: white;
-       font-size: 46px;
+       font-size: 17px;
        margin: 4px 3px;
    }
    /*-----------letest-work------- */
@@ -321,7 +322,7 @@ width: 100%;
        background-size: 100% 100%;
    }
    .part-thre-letest-work h1{
-       font-size: 71px;
+       font-size: 21px;
        font-family: 'Roboto Condensed', sans-serif;
        padding: 62px 0px;
        text-align: center;
@@ -337,7 +338,7 @@ width: 100%;
     margin: 10px auto;
    }
    .one-image img{
-       width: 100%;
+       width: 77%;
    }
    
    /* -------clint-testimonial------ */
@@ -349,45 +350,45 @@ width: 100%;
        background-size: cover;
    }
    .heading{
-       font-size: 63px;
+       font-size: 26px;
        font-family: 'Roboto Condensed', sans-serif;
-       padding: 62px 0px;
        text-align: center;
    }
    .claint-testi-monial{
      
    }
    .claint-testi-monial h3{
-       font-size: 61px;
+       font-size: 23px;
        margin-bottom: 15px;
    }
    .claint-testi-monial h5{
-       font-size: 31px;
+       font-size: 9px;
        color: #c5776e;
        margin-bottom: 85px;
    }
    .claint-testi-monial p{
-       font-size: 41px;
+       font-size: 14px;
+       width: 77%;
        color: #b94e41;
    }
    .email-contact-info{
        background: linear-gradient(
            49deg, #b58985, #d45e50);
-       width: 770px;
-       padding: 67px;
-       font-size: 22px;
+       width: 77%;
+       padding: 27px;
+       font-size: 3px;
        border-radius: 6px;
-       height: 227px;
+       height: 175px;
        margin: 70px auto;
        color: white;
    }
    .email-contact-info p{
-       font-size: 41px;
-       margin-bottom: 18px;
+       font-size: 26px;
+       margin-bottom: 6px;
    }
    .email-contact-info a{
        text-decoration: none;
-       font-size: 44px;
+       font-size: 15px;
        color: white;
    }
    .footer-copywritw{
@@ -395,7 +396,7 @@ width: 100%;
    }
    .footer-copywritw p{
        font-family: 'Roboto Condensed', sans-serif;
-       font-size: 38px;
+       font-size: 10px;
        color: #713737;
    }
 }
